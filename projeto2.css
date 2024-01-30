@@ -1,0 +1,105 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #cacaca;
+}
+
+.cabecalho{
+    height: 500px;
+    padding: 15px;
+    margin: 5px;
+    background-image: url(imagens/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    text-align: right;
+    margin: auto;
+
+}
+
+.menu li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid #c0c0c0;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: black;
+    opacity: 0.6;
+    color: azure;
+}
+
+.menu li a:hover{
+    background-color: azure;
+    opacity: 0.6;
+    color: black;
+}
+
+.inicio{
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.titulo_curso{
+    font-family: cursive;
+    font-size: 56px;
+    padding: 15px;
+    font-weight: bolder ;
+    color: aliceblue;
+}
+
+.texto_cabecalho{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    opacity: 0.6;
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 2px solid aliceblue;
+}
+
+.div{
+    margin: 30px 50px 30px 50px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.titulo{
+    background-color: #dddddd;
+    border-bottom: 2px solid #ccc;
+    font-family: fantasy;
+}
+
+.saiba_mais{
+    display: inline-block;
+    background-color: #cacaca;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rodape{
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 14px;
+    background-color: #858585;
+}
+
+.texto_rodape{
+    color: aliceblue;
+    display: inline-block;
+}
