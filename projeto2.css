@@ -62,6 +62,7 @@ body{
     padding: 15px;
     font-weight: bolder ;
     color: aliceblue;
+    text-transform: uppercase;
 }
 
 .texto_cabecalho{
@@ -85,6 +86,7 @@ body{
     background-color: #dddddd;
     border-bottom: 2px solid #ccc;
     font-family: fantasy;
+    text-transform: uppercase;
 }
 
 .saiba_mais{
@@ -110,4 +112,5 @@ body{
     color: aliceblue;
     text-shadow: 2px 2px black;
     align-items: center;
+    text-transform: uppercase;
 }
