@@ -38,6 +38,7 @@ body{
     background-color: black;
     opacity: 0.6;
     color: azure;
+    text-transform: uppercase;
 }
 
 .menu li a:hover{
